@@ -97,7 +97,7 @@ def get_trending_stocks(params={}, show_post=True):
             pass
         try:
             wl = R.get_json(ST_BASE_URL + 'streams/trending.json', params=all_params)
-        except BaseException as reset_time:
+        except RuntimeWarning as reset_time:
             r_at = reset_time.args[0]
             wait = float(r_at) - time()
             print('waiting for... ', wait, 'seconds')
@@ -105,7 +105,7 @@ def get_trending_stocks(params={}, show_post=True):
     else:
         try:
             wl = R.get_json(ST_BASE_URL + 'trending/symbols.json', params=all_params)
-        except BaseException as reset_time:
+        except RuntimeWarning as reset_time:
             r_at = reset_time.args[0]
             wait = float(r_at) - time()
             print('waiting for... ', wait, 'seconds')

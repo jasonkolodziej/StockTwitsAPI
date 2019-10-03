@@ -45,11 +45,11 @@ class Requests():
         # for StockTwits API
         try:
             if int(resp.headers['X-RateLimit-Remaining']) < 5:
-                raise BaseException(int(resp.headers['X-RateLimit-Reset']))
+                raise RuntimeWarning(int(resp.headers['X-RateLimit-Reset']))
             if resp.status_code is 429 or resp.status_code is None:
-                raise BaseException(int(resp.headers['X-RateLimit-Reset']))
-        except:
-            raise
+                raise RuntimeWarning(int(resp.headers['X-RateLimit-Reset']))
+        except Exception as w:
+            raise Exception(-1, w.with_traceback())
         return json.loads(resp.content)
 
     @staticmethod
