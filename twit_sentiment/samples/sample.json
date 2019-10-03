@@ -1,0 +1,1762 @@
+{
+     "messages": [
+          {
+               "body": "$BBBY $JPM BEST PROFESSIONAL SWING TRADING CHAT ROOM, CHECK OUT MY OWN PROFILE AND JOIN THERE.",
+               "created_at": "2019-10-03T06:01:00Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372565.PNG",
+                         "original": "https://charts.stocktwits.com/production/original_179372565.PNG",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372565.PNG",
+                         "url": "https://charts.stocktwits.com/production/original_179372565.PNG"
+                    },
+                    "sentiment": null
+               },
+               "id": 179372565,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 1027,
+                         "is_following": false,
+                         "symbol": "BBBY",
+                         "title": "Bed Bath & Beyond, Inc.",
+                         "watchlist_count": 6696
+                    },
+                    {
+                         "aliases": [],
+                         "id": 6020,
+                         "is_following": false,
+                         "symbol": "JPM",
+                         "title": "JPMorgan Chase & Co.",
+                         "watchlist_count": 36254
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/2839356/thumb-1570082199.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/2839356/thumb-1570082199.png",
+                    "classification": [],
+                    "followers": 0,
+                    "following": 0,
+                    "id": 2839356,
+                    "ideas": 0,
+                    "identity": "User",
+                    "join_date": "2019-10-03",
+                    "like_count": 0,
+                    "name": "Robert McDonald",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "Robert_McDonald",
+                    "watchlist_stocks_count": 0
+               }
+          },
+          {
+               "body": "$TSLA Musk is such a liar, this is totally manipulated company, he should be investigated for the email he sent last week",
+               "created_at": "2019-10-03T06:00:45Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372560,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234313
+                    }
+               ],
+               "user": {
+                    "avatar_url": "http://avatars.stocktwits.com/images/default_avatar_thumb.jpg",
+                    "avatar_url_ssl": "https://s3.amazonaws.com/st-avatars/images/default_avatar_thumb.jpg",
+                    "classification": [],
+                    "followers": 10,
+                    "following": 8,
+                    "id": 588240,
+                    "ideas": 735,
+                    "identity": "User",
+                    "join_date": "2015-08-29",
+                    "like_count": 66,
+                    "name": "Vick",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "vick777",
+                    "watchlist_stocks_count": 28
+               }
+          },
+          {
+               "body": "$TSLA MASSIVE GROWTH. What a stupid reaction today. Who cares what nitpick analysts estimate. Even apple stopped reporting numbers of iPhones sold. $AAPL The growth being huge Is what counts!",
+               "created_at": "2019-10-03T05:59:16Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372530.png",
+                         "original": "https://charts.stocktwits.com/production/original_179372530.png",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372530.png",
+                         "url": "https://charts.stocktwits.com/production/original_179372530.png"
+                    },
+                    "sentiment": {
+                         "basic": "Bullish"
+                    }
+               },
+               "id": 179372530,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 686,
+                         "is_following": false,
+                         "symbol": "AAPL",
+                         "title": "Apple Inc.",
+                         "watchlist_count": 318403
+                    },
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234313
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/767238/thumb-1558823914.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/767238/thumb-1558823914.png",
+                    "classification": [],
+                    "followers": 1356,
+                    "following": 69,
+                    "id": 767238,
+                    "ideas": 32020,
+                    "identity": "User",
+                    "join_date": "2016-06-06",
+                    "like_count": 34591,
+                    "name": "Thankfulness Wealth Management",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "Thankfulness",
+                    "watchlist_stocks_count": 138
+               }
+          },
+          {
+               "body": "$AXSM: The EPS growth is accelerating: in the next 2 years the growth will be better than in the last years. https://www.chartmill.com/stock/quote/AXSM/fundamental-analysis?key=98246627-ef39-49c4-8152-5449e1dd921d&amp;utm_source=stocktwits&amp;utm_medium=FA&amp;utm_content=GROWTH&amp;utm_campaign=social_tracking",
+               "created_at": "2019-10-03T05:57:38Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372518,
+               "liked_by_self": false,
+               "links": [
+                    {
+                         "created_at": "2019-10-03T05:57:43Z",
+                         "description": null,
+                         "image": null,
+                         "shortened_expanded_url": "chartmill.com/stock/quote/A...",
+                         "shortened_url": "https://www.chartmill.com/stock/quote/AXSM/fundamental-analysis?key=98246627-ef39-49c4-8152-5449e1dd921d&utm_source=stocktwits&utm_medium=FA&utm_content=GROWTH&utm_campaign=social_tracking",
+                         "source": {
+                              "name": "Chartmill",
+                              "website": "https://www.chartmill.com"
+                         },
+                         "title": null,
+                         "url": "https://www.chartmill.com/stock/quote/AXSM/fundamental-analysis?key=98246627-ef39-49c4-8152-5449e1dd921d&utm_source=stocktwits&utm_medium=FA&utm_content=GROWTH&utm_campaign=social_tracking",
+                         "video_url": null
+                    }
+               ],
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1135,
+                    "title": "ChartMill",
+                    "url": "http://www.chartmill.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 12896,
+                         "is_following": false,
+                         "symbol": "AXSM",
+                         "title": "Axsome Therapeutics ",
+                         "watchlist_count": 4481
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/47688/thumb-1363343728.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/47688/thumb-1363343728.png",
+                    "classification": [],
+                    "followers": 12122,
+                    "following": 900,
+                    "id": 47688,
+                    "ideas": 664514,
+                    "identity": "User",
+                    "join_date": "2011-01-26",
+                    "like_count": 32,
+                    "name": "ChartMill",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "ChartMill",
+                    "watchlist_stocks_count": 20
+               }
+          },
+          {
+               "body": "$TSLA last year the gap would have filled AH. Welcome to $230 support. Big money overbought the offering for a reason. I\u2019ll add the offering bears said couldn\u2019t happen yet it actually saved them.......... $STUDY",
+               "created_at": "2019-10-03T05:57:07Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372508,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234313
+                    },
+                    {
+                         "aliases": [],
+                         "id": 8677,
+                         "is_following": false,
+                         "symbol": "STUDY",
+                         "title": "StockTwits Education",
+                         "watchlist_count": 4878
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/834176/thumb-1566934059.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/834176/thumb-1566934059.png",
+                    "classification": [],
+                    "followers": 1049,
+                    "following": 382,
+                    "id": 834176,
+                    "ideas": 47437,
+                    "identity": "User",
+                    "join_date": "2016-09-04",
+                    "like_count": 11034,
+                    "name": "Keith Barclay",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "xile737",
+                    "watchlist_stocks_count": 298
+               }
+          },
+          {
+               "body": "$ADXS $GPRO",
+               "created_at": "2019-10-03T05:56:52Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372505.png",
+                         "original": "https://charts.stocktwits.com/production/original_179372505.png",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372505.png",
+                         "url": "https://charts.stocktwits.com/production/original_179372505.png"
+                    },
+                    "sentiment": null
+               },
+               "id": 179372505,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [
+                              "GOPRO"
+                         ],
+                         "id": 2051,
+                         "is_following": false,
+                         "symbol": "GPRO",
+                         "title": "GoPro",
+                         "watchlist_count": 71456
+                    },
+                    {
+                         "aliases": [],
+                         "id": 11564,
+                         "is_following": false,
+                         "symbol": "ADXS",
+                         "title": "Advaxis Inc.",
+                         "watchlist_count": 10037
+                    }
+               ],
+               "user": {
+                    "avatar_url": "http://avatars.stocktwits.com/images/default_avatar_thumb.jpg",
+                    "avatar_url_ssl": "https://s3.amazonaws.com/st-avatars/images/default_avatar_thumb.jpg",
+                    "classification": [],
+                    "followers": 0,
+                    "following": 0,
+                    "id": 2837657,
+                    "ideas": 0,
+                    "identity": "User",
+                    "join_date": "2019-10-02",
+                    "like_count": 0,
+                    "name": "Dorina Loshi",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "DorinaLoshi",
+                    "watchlist_stocks_count": 2
+               }
+          },
+          {
+               "body": "$GPRO $7 by Xmas",
+               "created_at": "2019-10-03T05:56:13Z",
+               "entities": {
+                    "sentiment": {
+                         "basic": "Bullish"
+                    }
+               },
+               "id": 179372494,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [
+                              "GOPRO"
+                         ],
+                         "id": 2051,
+                         "is_following": false,
+                         "symbol": "GPRO",
+                         "title": "GoPro",
+                         "watchlist_count": 71456
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/101291/thumb-1515456853.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/101291/thumb-1515456853.png",
+                    "classification": [],
+                    "followers": 47,
+                    "following": 11,
+                    "id": 101291,
+                    "ideas": 2444,
+                    "identity": "User",
+                    "join_date": "2011-08-18",
+                    "like_count": 169,
+                    "name": "V",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "BSFilter",
+                    "watchlist_stocks_count": 254
+               }
+          },
+          {
+               "body": "$LEG A few guys think this will start to ramp up soon.",
+               "created_at": "2019-10-03T05:53:57Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372447,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 3376,
+                    "title": "Bull and Moon Trading",
+                    "url": "https://bull-moon.slack.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 6165,
+                         "is_following": false,
+                         "symbol": "LEG",
+                         "title": "Leggett & Platt, Incorporated",
+                         "watchlist_count": 450
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/1059021/thumb-1494471572.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/1059021/thumb-1494471572.png",
+                    "classification": [],
+                    "followers": 486,
+                    "following": 18,
+                    "id": 1059021,
+                    "ideas": 12326,
+                    "identity": "User",
+                    "join_date": "2017-05-11",
+                    "like_count": 8,
+                    "name": "Bull And Moon Trading",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "BullMoonTrading",
+                    "watchlist_stocks_count": 3
+               }
+          },
+          {
+               "body": "$BBBY I saw in my chart will jump to $20 maximum",
+               "created_at": "2019-10-03T05:52:51Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372427.jpg",
+                         "original": "https://charts.stocktwits.com/production/original_179372427.jpg",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372427.jpg",
+                         "url": "https://charts.stocktwits.com/production/original_179372427.jpg"
+                    },
+                    "sentiment": {
+                         "basic": "Bullish"
+                    }
+               },
+               "id": 179372427,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2095,
+                    "title": "StockTwits For Android ",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 1027,
+                         "is_following": false,
+                         "symbol": "BBBY",
+                         "title": "Bed Bath & Beyond, Inc.",
+                         "watchlist_count": 6696
+                    }
+               ],
+               "user": {
+                    "avatar_url": "http://avatars.stocktwits.com/images/default_avatar_thumb.jpg",
+                    "avatar_url_ssl": "https://s3.amazonaws.com/st-avatars/images/default_avatar_thumb.jpg",
+                    "classification": [],
+                    "followers": 0,
+                    "following": 1,
+                    "id": 2837153,
+                    "ideas": 0,
+                    "identity": "User",
+                    "join_date": "2019-10-01",
+                    "like_count": 1,
+                    "name": "Jofran",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "jofranbaquiran",
+                    "watchlist_stocks_count": 1
+               }
+          },
+          {
+               "body": "$QQQ $DIA BEST PROFESSIONAL SWING TRADING CHAT ROOM, CHECK OUT MY OWN PROFILE AND JOIN THERE.",
+               "created_at": "2019-10-03T05:50:22Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372390.PNG",
+                         "original": "https://charts.stocktwits.com/production/original_179372390.PNG",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372390.PNG",
+                         "url": "https://charts.stocktwits.com/production/original_179372390.PNG"
+                    },
+                    "sentiment": null
+               },
+               "id": 179372390,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 4979,
+                         "is_following": false,
+                         "symbol": "DIA",
+                         "title": "SPDR Dow Jones Industrial Average",
+                         "watchlist_count": 10361
+                    },
+                    {
+                         "aliases": [
+                              "QQQQ"
+                         ],
+                         "id": 9581,
+                         "is_following": false,
+                         "symbol": "QQQ",
+                         "title": "PowerShares Nasdaq-100 QQQ",
+                         "watchlist_count": 44665
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/2839351/thumb-1570081638.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/2839351/thumb-1570081638.png",
+                    "classification": [],
+                    "followers": 0,
+                    "following": 0,
+                    "id": 2839351,
+                    "ideas": 0,
+                    "identity": "User",
+                    "join_date": "2019-10-03",
+                    "like_count": 0,
+                    "name": "Andrew Hoban",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "Andrew_Hoban",
+                    "watchlist_stocks_count": 0
+               }
+          },
+          {
+               "body": "$GPRO how many do you think they sell on amazon lol",
+               "created_at": "2019-10-03T05:47:06Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372332,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [
+                              "GOPRO"
+                         ],
+                         "id": 2051,
+                         "is_following": false,
+                         "symbol": "GPRO",
+                         "title": "GoPro",
+                         "watchlist_count": 71456
+                    }
+               ],
+               "user": {
+                    "avatar_url": "http://avatars.stocktwits.com/images/default_avatar_thumb.jpg",
+                    "avatar_url_ssl": "https://s3.amazonaws.com/st-avatars/images/default_avatar_thumb.jpg",
+                    "classification": [],
+                    "followers": 30,
+                    "following": 1,
+                    "id": 1924268,
+                    "ideas": 2970,
+                    "identity": "User",
+                    "join_date": "2019-03-09",
+                    "like_count": 47,
+                    "name": "Ron Paul",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "BYOB1",
+                    "watchlist_stocks_count": 9
+               }
+          },
+          {
+               "body": "$TSLA This is what I mean about analysts. But look at this massive growth! A Record Quarter. \ud83d\ude4c\ud83c\udffc",
+               "created_at": "2019-10-03T05:46:27Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372319.png",
+                         "original": "https://charts.stocktwits.com/production/original_179372319.png",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372319.png",
+                         "url": "https://charts.stocktwits.com/production/original_179372319.png"
+                    },
+                    "sentiment": null
+               },
+               "id": 179372319,
+               "liked_by_self": false,
+               "likes": {
+                    "total": 1,
+                    "user_ids": [
+                         1419666
+                    ]
+               },
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234310
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/767238/thumb-1558823914.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/767238/thumb-1558823914.png",
+                    "classification": [],
+                    "followers": 1356,
+                    "following": 69,
+                    "id": 767238,
+                    "ideas": 32020,
+                    "identity": "User",
+                    "join_date": "2016-06-06",
+                    "like_count": 34591,
+                    "name": "Thankfulness Wealth Management",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "Thankfulness",
+                    "watchlist_stocks_count": 138
+               }
+          },
+          {
+               "body": "$GPRO GoPoor",
+               "created_at": "2019-10-03T05:45:17Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372307,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2095,
+                    "title": "StockTwits For Android ",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [
+                              "GOPRO"
+                         ],
+                         "id": 2051,
+                         "is_following": false,
+                         "symbol": "GPRO",
+                         "title": "GoPro",
+                         "watchlist_count": 71456
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/436536/thumb-1537375529.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/436536/thumb-1537375529.png",
+                    "classification": [],
+                    "followers": 24,
+                    "following": 45,
+                    "id": 436536,
+                    "ideas": 1975,
+                    "identity": "User",
+                    "join_date": "2014-12-15",
+                    "like_count": 994,
+                    "name": "NEO",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "profusionz25",
+                    "watchlist_stocks_count": 135
+               }
+          },
+          {
+               "body": "$TSLA that\u2019s true Sir these Analysts are bunch of thugs certified financial criminals...",
+               "created_at": "2019-10-03T05:45:08Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372305,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshare_message": {
+                    "message": {
+                         "body": "$TSLA WS Analysts estimated 94K. After the leaked Email they started to say 99K. :)",
+                         "created_at": "2019-10-03T05:12:13Z",
+                         "entities": {
+                              "sentiment": {
+                                   "basic": "Bullish"
+                              }
+                         },
+                         "filters": {
+                              "day_counts": 4,
+                              "official_api": true
+                         },
+                         "id": 179371725,
+                         "likes": {
+                              "total": 4,
+                              "user_ids": [
+                                   280012,
+                                   1896505,
+                                   1824468,
+                                   1987911
+                              ]
+                         },
+                         "mentioned_users": [],
+                         "source": {
+                              "id": 2095,
+                              "title": "StockTwits For Android ",
+                              "url": "http://www.stocktwits.com/mobile"
+                         },
+                         "symbols": [
+                              {
+                                   "aliases": [],
+                                   "id": 8660,
+                                   "is_following": false,
+                                   "symbol": "TSLA",
+                                   "title": "Tesla, Inc.",
+                                   "watchlist_count": 234310
+                              }
+                         ],
+                         "user": {
+                              "avatar_url": "https://avatars.stocktwits.com/production/1556640/thumb-1546393851.png",
+                              "avatar_url_ssl": "https://avatars.stocktwits.com/production/1556640/thumb-1546393851.png",
+                              "classification": [],
+                              "followers": 24,
+                              "following": 12,
+                              "id": 1556640,
+                              "ideas": 1024,
+                              "identity": "User",
+                              "join_date": "2018-07-25",
+                              "like_count": 1918,
+                              "name": "Ani",
+                              "official": false,
+                              "plus_tier": "",
+                              "premium_room": "",
+                              "username": "ProfitTaker4",
+                              "watchlist_stocks_count": 1
+                         }
+                    },
+                    "parent_reshared_deleted": false,
+                    "reshared_count": 1,
+                    "reshared_deleted": false,
+                    "reshared_user_deleted": false
+               },
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234310
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/1824468/thumb-1548439593.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/1824468/thumb-1548439593.png",
+                    "classification": [],
+                    "followers": 83,
+                    "following": 1,
+                    "id": 1824468,
+                    "ideas": 3523,
+                    "identity": "User",
+                    "join_date": "2019-01-25",
+                    "like_count": 855,
+                    "name": "Jim",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "BigNews",
+                    "watchlist_stocks_count": 1
+               }
+          },
+          {
+               "body": "Updated ratings for Cabot Oil($COG), Bed Bath($BBBY), American Express($AXP),\u2026 https://www.macroaxis.com/invest/marketRatings?s=COG,BBBY,AXP,SO,KBH,VFC,AES,CSX,MFG,ORLY,ABT,NKE #insidertrading #stocks #fintechnews",
+               "created_at": "2019-10-03T05:45:07Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372301,
+               "liked_by_self": false,
+               "links": [
+                    {
+                         "created_at": "2019-10-03T05:45:35Z",
+                         "description": "Macroaxis provides instant equity rating based on combination of real-time fundamental analysis and risk-adjusted market performance. The results are broken down into 6 separate categories that are weighted to derive a horizon-based digital recommendation. The six categories are: Volatility, Hype Condition, Valuation, Analyst Consensus, Financial Leverage, and Odds of Distress.",
+                         "image": "https://www.macroaxis.com/images/aboutMacroaxisGuy.png",
+                         "shortened_expanded_url": "macroaxis.com/invest/market...",
+                         "shortened_url": "https://www.macroaxis.com/invest/marketRatings?s=COG,BBBY,AXP,SO,KBH,VFC,AES,CSX,MFG,ORLY,ABT,NKE",
+                         "source": {
+                              "name": "Macroaxis",
+                              "website": "https://www.macroaxis.com"
+                         },
+                         "title": "Digital Advice For COG,BBBY,AXP,SO,KBH,VFC,AES,CSX,MFG,ORLY,ABT,NKE",
+                         "url": "https://www.macroaxis.com/invest/marketRatings?s=COG,BBBY,AXP,SO,KBH,VFC,AES,CSX,MFG,ORLY,ABT,NKE",
+                         "video_url": null
+                    }
+               ],
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1351,
+                    "title": "dlvr.it",
+                    "url": "https://dlvrit.com/"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 1027,
+                         "is_following": false,
+                         "symbol": "BBBY",
+                         "title": "Bed Bath & Beyond, Inc.",
+                         "watchlist_count": 6696
+                    },
+                    {
+                         "aliases": [],
+                         "id": 4423,
+                         "is_following": false,
+                         "symbol": "AXP",
+                         "title": "American Express Company",
+                         "watchlist_count": 9009
+                    },
+                    {
+                         "aliases": [],
+                         "id": 4795,
+                         "is_following": false,
+                         "symbol": "COG",
+                         "title": "Cabot Oil & Gas Corporation",
+                         "watchlist_count": 1558
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/56948/thumb-1361399398.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/56948/thumb-1361399398.png",
+                    "classification": [],
+                    "followers": 826,
+                    "following": 4,
+                    "id": 56948,
+                    "ideas": 100578,
+                    "identity": "User",
+                    "join_date": "2011-03-04",
+                    "like_count": 27,
+                    "name": "Macroaxis",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "macroaxis",
+                    "watchlist_stocks_count": 14
+               }
+          },
+          {
+               "body": "$COST  Guys, I am going to wait until 20 minutes close tomorrow. I am going to Buy 200 shares. Then I am going to sell 2 contracts in the money Calls. I am expecting good numbers But, my personal past experience is OCT earnings never really impress that much. But, December earnings drive the stock higher.. I guess we will see how it goes.. Good Luck all...",
+               "created_at": "2019-10-03T05:44:42Z",
+               "entities": {
+                    "sentiment": {
+                         "basic": "Bearish"
+                    }
+               },
+               "id": 179372294,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 1403,
+                         "is_following": false,
+                         "symbol": "COST",
+                         "title": "Costco Wholesale Corporation",
+                         "watchlist_count": 21996
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/1558201/thumb-1532666892.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/1558201/thumb-1532666892.png",
+                    "classification": [],
+                    "followers": 17,
+                    "following": 0,
+                    "id": 1558201,
+                    "ideas": 1475,
+                    "identity": "User",
+                    "join_date": "2018-07-27",
+                    "like_count": 8,
+                    "name": "Jason Ricks",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "JADEDDD",
+                    "watchlist_stocks_count": 23
+               }
+          },
+          {
+               "body": "$SPY  $DIA  $QQQ  Just had to log a prediction- we are safe through november but unless the trade and political climate improves drastically. We will hit a 15%+ correction/maybe ression within the following 5 months. GL",
+               "created_at": "2019-10-03T05:40:13Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372237,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 4979,
+                         "is_following": false,
+                         "symbol": "DIA",
+                         "title": "SPDR Dow Jones Industrial Average",
+                         "watchlist_count": 10361
+                    },
+                    {
+                         "aliases": [],
+                         "id": 7271,
+                         "is_following": false,
+                         "symbol": "SPY",
+                         "title": "SPDR S&P 500",
+                         "watchlist_count": 141763
+                    },
+                    {
+                         "aliases": [
+                              "QQQQ"
+                         ],
+                         "id": 9581,
+                         "is_following": false,
+                         "symbol": "QQQ",
+                         "title": "PowerShares Nasdaq-100 QQQ",
+                         "watchlist_count": 44665
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/2156108/thumb-1564552731.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/2156108/thumb-1564552731.png",
+                    "classification": [],
+                    "followers": 3,
+                    "following": 10,
+                    "id": 2156108,
+                    "ideas": 43,
+                    "identity": "User",
+                    "join_date": "2019-06-22",
+                    "like_count": 40,
+                    "name": "J duellman",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "Duellman",
+                    "watchlist_stocks_count": 16
+               }
+          },
+          {
+               "body": "$GPRO These days you can record good video on phones....",
+               "conversation": {
+                    "in_reply_to_message_id": null,
+                    "parent": true,
+                    "parent_message_id": 179372159,
+                    "replies": 1
+               },
+               "created_at": "2019-10-03T05:35:42Z",
+               "entities": {
+                    "sentiment": {
+                         "basic": "Bearish"
+                    }
+               },
+               "id": 179372159,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [
+                              "GOPRO"
+                         ],
+                         "id": 2051,
+                         "is_following": false,
+                         "symbol": "GPRO",
+                         "title": "GoPro",
+                         "watchlist_count": 71456
+                    }
+               ],
+               "user": {
+                    "avatar_url": "http://avatars.stocktwits.com/images/default_avatar_thumb.jpg",
+                    "avatar_url_ssl": "https://s3.amazonaws.com/st-avatars/images/default_avatar_thumb.jpg",
+                    "classification": [],
+                    "followers": 82,
+                    "following": 142,
+                    "id": 1814597,
+                    "ideas": 5219,
+                    "identity": "User",
+                    "join_date": "2019-01-18",
+                    "like_count": 1190,
+                    "name": "Satwinder",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "NYC1929Twits",
+                    "watchlist_stocks_count": 282
+               }
+          },
+          {
+               "body": "$AMRN has a better Profit Margin than the industry average Profit Margin of -204.63%. https://www.chartmill.com/stock/quote/AMRN/fundamental-analysis?key=e4ea638c-11a8-4469-9e0a-515faaf5ddd2&amp;utm_source=stocktwits&amp;utm_medium=FA&amp;utm_content=PROFITABILITY&amp;utm_campaign=social_tracking",
+               "created_at": "2019-10-03T05:35:34Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372156,
+               "liked_by_self": false,
+               "links": [
+                    {
+                         "created_at": "2019-10-03T05:35:38Z",
+                         "description": null,
+                         "image": null,
+                         "shortened_expanded_url": "chartmill.com/stock/quote/A...",
+                         "shortened_url": "https://www.chartmill.com/stock/quote/AMRN/fundamental-analysis?key=e4ea638c-11a8-4469-9e0a-515faaf5ddd2&utm_source=stocktwits&utm_medium=FA&utm_content=PROFITABILITY&utm_campaign=social_tracking",
+                         "source": {
+                              "name": "Chartmill",
+                              "website": "https://www.chartmill.com"
+                         },
+                         "title": null,
+                         "url": "https://www.chartmill.com/stock/quote/AMRN/fundamental-analysis?key=e4ea638c-11a8-4469-9e0a-515faaf5ddd2&utm_source=stocktwits&utm_medium=FA&utm_content=PROFITABILITY&utm_campaign=social_tracking",
+                         "video_url": null
+                    }
+               ],
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1135,
+                    "title": "ChartMill",
+                    "url": "http://www.chartmill.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 853,
+                         "is_following": false,
+                         "symbol": "AMRN",
+                         "title": "Amarin Corporation plc",
+                         "watchlist_count": 21362
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/47688/thumb-1363343728.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/47688/thumb-1363343728.png",
+                    "classification": [],
+                    "followers": 12122,
+                    "following": 900,
+                    "id": 47688,
+                    "ideas": 664514,
+                    "identity": "User",
+                    "join_date": "2011-01-26",
+                    "like_count": 32,
+                    "name": "ChartMill",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "ChartMill",
+                    "watchlist_stocks_count": 20
+               }
+          },
+          {
+               "body": "$TSLA $AMD BEST SWING TRADING CHAT ROOM, CHECK OUT MY OWN PROFILE AND JOIN THERE.",
+               "conversation": {
+                    "in_reply_to_message_id": null,
+                    "parent": true,
+                    "parent_message_id": 179372138,
+                    "replies": 1
+               },
+               "created_at": "2019-10-03T05:34:20Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372138.PNG",
+                         "original": "https://charts.stocktwits.com/production/original_179372138.PNG",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372138.PNG",
+                         "url": "https://charts.stocktwits.com/production/original_179372138.PNG"
+                    },
+                    "sentiment": null
+               },
+               "id": 179372138,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 4331,
+                         "is_following": false,
+                         "symbol": "AMD",
+                         "title": "Advanced Micro Devices, Inc.",
+                         "watchlist_count": 182215
+                    },
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234313
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/2839332/thumb-1570080581.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/2839332/thumb-1570080581.png",
+                    "classification": [],
+                    "followers": 0,
+                    "following": 0,
+                    "id": 2839332,
+                    "ideas": 0,
+                    "identity": "User",
+                    "join_date": "2019-10-03",
+                    "like_count": 0,
+                    "name": "James Crum",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "James_Crum",
+                    "watchlist_stocks_count": 0
+               }
+          },
+          {
+               "body": "$TSLA buying puts",
+               "created_at": "2019-10-03T05:30:26Z",
+               "entities": {
+                    "sentiment": {
+                         "basic": "Bearish"
+                    }
+               },
+               "id": 179372069,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234310
+                    }
+               ],
+               "user": {
+                    "avatar_url": "http://avatars.stocktwits.com/images/default_avatar_thumb.jpg",
+                    "avatar_url_ssl": "https://s3.amazonaws.com/st-avatars/images/default_avatar_thumb.jpg",
+                    "classification": [],
+                    "followers": 4,
+                    "following": 34,
+                    "id": 2040978,
+                    "ideas": 128,
+                    "identity": "User",
+                    "join_date": "2019-04-27",
+                    "like_count": 141,
+                    "name": "Georgey",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "Georgeyyup",
+                    "watchlist_stocks_count": 44
+               }
+          },
+          {
+               "body": "$ALGN  Watch for more downside on a break on heavy volume below $175.",
+               "created_at": "2019-10-03T05:29:11Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372041.png",
+                         "original": "https://charts.stocktwits.com/production/original_179372041.png",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372041.png",
+                         "url": "https://charts.stocktwits.com/production/original_179372041.png"
+                    },
+                    "sentiment": {
+                         "basic": "Bearish"
+                    }
+               },
+               "id": 179372041,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 801,
+                         "is_following": false,
+                         "symbol": "ALGN",
+                         "title": "Align Technology Inc.",
+                         "watchlist_count": 6284
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/349618/thumb-1477664093.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/349618/thumb-1477664093.png",
+                    "classification": [
+                         "suggested"
+                    ],
+                    "followers": 923,
+                    "following": 78,
+                    "id": 349618,
+                    "ideas": 9338,
+                    "identity": "User",
+                    "join_date": "2014-05-02",
+                    "like_count": 2474,
+                    "name": "InItToWinIt",
+                    "official": false,
+                    "plus_tier": "month",
+                    "premium_room": "",
+                    "username": "InItToWinIt100",
+                    "watchlist_stocks_count": 66
+               }
+          },
+          {
+               "body": "$AMRN who\u2019s stockvader?",
+               "created_at": "2019-10-03T05:28:49Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372030,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 853,
+                         "is_following": false,
+                         "symbol": "AMRN",
+                         "title": "Amarin Corporation plc",
+                         "watchlist_count": 21362
+                    }
+               ],
+               "user": {
+                    "avatar_url": "http://avatars.stocktwits.com/images/default_avatar_thumb.jpg",
+                    "avatar_url_ssl": "https://s3.amazonaws.com/st-avatars/images/default_avatar_thumb.jpg",
+                    "classification": [],
+                    "followers": 10,
+                    "following": 17,
+                    "id": 1943101,
+                    "ideas": 177,
+                    "identity": "User",
+                    "join_date": "2019-03-17",
+                    "like_count": 189,
+                    "name": "aye",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "pharmazed",
+                    "watchlist_stocks_count": 34
+               }
+          },
+          {
+               "body": "\ud83d\udd25Evolution Trading\u2019s Elite Swings/Watchlist\ud83d\udd25\n\u2733\ufe0fOptions\u2733\ufe0f\n\n$OSTK $TSLA $SGEN $AMRN $SPY\n\nOSTK \ud83e\udd11- bought call leaps for a MONSTER play when we text alert 9-9.30 buy, already paid solid the first day\n\n\ud83d\udd25TSLA \ud83d\udcb0- one of our easiest puts Alerted and focused on, check the feed for our other swing puts\n\nSGEN \ud83e\udd14- uptrend line resis, breakout into spinning top, needs pullback\n\nSPY \ud83d\ude31- this is the last uptrend line then 200dsma or we enter into a bear market... crazy\n\nAMRN\ud83e\uddc0 - bought Calls 3 diff expiration\u2019s at 14 and looking for this support bounce, they have PR next month \n\n#SBUX - broke support kinda like the #LK put play, \n\nWatchlist for tomorrow, our swings were posted earlier\nGood luck tomorrow \ud83e\udd20YEEE HAW\ud83e\udd20\n\n\ud83d\udcb0BOOOOOM\ud83d\udcb0 SHAKA LAKA\n\n#KSHB swinging otc\n#TVIX epic reversal, check out our live stream pre breakout on bottom Ideas",
+               "created_at": "2019-10-03T05:28:09Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179372024.png",
+                         "original": "https://charts.stocktwits.com/production/original_179372024.png",
+                         "thumb": "https://charts.stocktwits.com/production/small_179372024.png",
+                         "url": "https://charts.stocktwits.com/production/original_179372024.png"
+                    },
+                    "sentiment": {
+                         "basic": "Bullish"
+                    }
+               },
+               "id": 179372024,
+               "liked_by_self": false,
+               "likes": {
+                    "total": 2,
+                    "user_ids": [
+                         1483137,
+                         1450848
+                    ]
+               },
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 853,
+                         "is_following": false,
+                         "symbol": "AMRN",
+                         "title": "Amarin Corporation plc",
+                         "watchlist_count": 21362
+                    },
+                    {
+                         "aliases": [],
+                         "id": 3031,
+                         "is_following": false,
+                         "symbol": "OSTK",
+                         "title": "Overstock.com Inc.",
+                         "watchlist_count": 18090
+                    },
+                    {
+                         "aliases": [],
+                         "id": 3506,
+                         "is_following": false,
+                         "symbol": "SGEN",
+                         "title": "Seattle Genetics Inc.",
+                         "watchlist_count": 2928
+                    },
+                    {
+                         "aliases": [],
+                         "id": 7271,
+                         "is_following": false,
+                         "symbol": "SPY",
+                         "title": "SPDR S&P 500",
+                         "watchlist_count": 141763
+                    },
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234310
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/885286/thumb-1567283517.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/885286/thumb-1567283517.png",
+                    "classification": [],
+                    "followers": 13616,
+                    "following": 1732,
+                    "id": 885286,
+                    "ideas": 15288,
+                    "identity": "User",
+                    "join_date": "2016-11-22",
+                    "like_count": 2742,
+                    "name": "Josh Cranmer",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "cranmer00",
+                    "watchlist_stocks_count": 299
+               }
+          },
+          {
+               "body": "$STZ \nConstellation Brands Inc. reached a deal to sell wine brands including Clos du Bois and Mark West to E. &amp; J. Gallo Winery for $1.7 billion.\n\nThis hasnt officially closed, it will interesting to see how they recognize this in financial statements",
+               "created_at": "2019-10-03T05:27:17Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179372009,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 7305,
+                         "is_following": false,
+                         "symbol": "STZ",
+                         "title": "Constellation Brands Inc.",
+                         "watchlist_count": 8240
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/1405672/thumb-1539612634.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/1405672/thumb-1539612634.png",
+                    "classification": [],
+                    "followers": 10,
+                    "following": 13,
+                    "id": 1405672,
+                    "ideas": 1028,
+                    "identity": "User",
+                    "join_date": "2018-02-09",
+                    "like_count": 916,
+                    "name": "Jack",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "jackmania",
+                    "watchlist_stocks_count": 27
+               }
+          },
+          {
+               "body": "Dow Stocks Above Moving Averages [2-Oct]:\n\n50d:  37% \u21e9\n100d: 37% \u21e9\n200d: 57% \u21e9\n\n$DJIA $DIA\n\nIndexIndicators.com",
+               "created_at": "2019-10-03T05:22:11Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179371914,
+               "liked_by_self": false,
+               "links": [
+                    {
+                         "created_at": "2019-10-03T05:22:14Z",
+                         "description": "Free charts and backtesting of over 500 stock market indicators, including breadth, put/call ratios and volatility",
+                         "image": "http://www.indexindicators.com/_charts/sp500-vs-put-call-ratio-equity-50d-rsma-params-3y-x-x_350-20ma.png?ver=2019100305",
+                         "shortened_expanded_url": "indexindicators.com/",
+                         "shortened_url": "IndexIndicators.com",
+                         "source": {
+                              "name": "Indexindicators",
+                              "website": "http://www.indexindicators.com"
+                         },
+                         "title": "Stock Market Indicators | IndexIndicators.com",
+                         "url": "IndexIndicators.com",
+                         "video_url": null
+                    }
+               ],
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2399,
+                    "title": "@MarketCharts",
+                    "url": "http://www.indexindicators.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 677,
+                         "is_following": false,
+                         "symbol": "DJIA",
+                         "title": "Dow Jones Industrial Index",
+                         "watchlist_count": 42907
+                    },
+                    {
+                         "aliases": [],
+                         "id": 4979,
+                         "is_following": false,
+                         "symbol": "DIA",
+                         "title": "SPDR Dow Jones Industrial Average",
+                         "watchlist_count": 10361
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/313661/thumb-1392247339.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/313661/thumb-1392247339.png",
+                    "classification": [
+                         "suggested",
+                         "official"
+                    ],
+                    "followers": 64716,
+                    "following": 20,
+                    "id": 313661,
+                    "ideas": 9690,
+                    "identity": "Official",
+                    "join_date": "2014-02-12",
+                    "like_count": 52,
+                    "name": "IndexIndicators.com",
+                    "official": true,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "MarketCharts",
+                    "watchlist_stocks_count": 9
+               }
+          },
+          {
+               "body": "$TSLA no real shareholder sold on those record breaking numbers. A few traders got caught with bear quick manipulation. Tesla growth add China nearterm Tommy \ud83d\ude09",
+               "created_at": "2019-10-03T05:19:26Z",
+               "entities": {
+                    "sentiment": {
+                         "basic": "Bullish"
+                    }
+               },
+               "id": 179371859,
+               "liked_by_self": false,
+               "likes": {
+                    "total": 4,
+                    "user_ids": [
+                         2723908,
+                         1367879,
+                         1419666,
+                         378540
+                    ]
+               },
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2095,
+                    "title": "StockTwits For Android ",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 8660,
+                         "is_following": false,
+                         "symbol": "TSLA",
+                         "title": "Tesla, Inc.",
+                         "watchlist_count": 234313
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/206273/thumb-1357833858.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/206273/thumb-1357833858.png",
+                    "classification": [],
+                    "followers": 149,
+                    "following": 5,
+                    "id": 206273,
+                    "ideas": 7067,
+                    "identity": "User",
+                    "join_date": "2013-01-10",
+                    "like_count": 1714,
+                    "name": "J",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "candiswave",
+                    "watchlist_stocks_count": 56
+               }
+          },
+          {
+               "body": "US Stocks Decline for a 2nd Day Running, EU Tariffs Loom\n\n$DIA, $SPY, $QQQ, $RUTX, $ESDAY, $VXX\n\nWednesday\u2019s US economic data included the ADP Employment Change report for September and the weekly MBA Mortgage Applications Index.\n\nhttps://www.livetradingnews.com/us-stocks-decline-for-a-2nd-day-running-eu-tariffs-loom-155131.html#.XZWDw0Yzal4",
+               "created_at": "2019-10-03T05:15:48Z",
+               "entities": {
+                    "chart": {
+                         "large": "https://charts.stocktwits.com/production/large_179371796.jpg",
+                         "original": "https://charts.stocktwits.com/production/original_179371796.jpg",
+                         "thumb": "https://charts.stocktwits.com/production/small_179371796.jpg",
+                         "url": "https://charts.stocktwits.com/production/original_179371796.jpg"
+                    },
+                    "sentiment": {
+                         "basic": "Bullish"
+                    }
+               },
+               "id": 179371796,
+               "liked_by_self": false,
+               "likes": {
+                    "total": 1,
+                    "user_ids": [
+                         180213
+                    ]
+               },
+               "links": [
+                    {
+                         "created_at": "2019-10-03T05:16:34Z",
+                         "description": "DIA, $SPY, $QQQ, $RUTX, $ESDAY, $VXX Wednesday's US economic data included the ADP Employment Change report for September and the weekly MBA Mortgage Applications Index. The takeaways are as follows: Private-sector payrolls were estimated to have increased by 135,000 in September (consensus 150-K) while the prior month's print was revised down to 157-K from 195,000.",
+                         "image": "https://www.livetradingnews.com/wp-content/uploads/2019/10/EU-tariffs-440x264.jpg",
+                         "shortened_expanded_url": "livetradingnews.com/us-stoc...",
+                         "shortened_url": "https://www.livetradingnews.com/us-stocks-decline-for-a-2nd-day-running-eu-tariffs-loom-155131.html#.XZWDw0Yzal4",
+                         "source": {
+                              "name": "Live Trading News",
+                              "website": "https://www.livetradingnews.com"
+                         },
+                         "title": "US Stocks Decline for a 2nd Day Running, EU Tariffs Loom - Live Trading News",
+                         "url": "https://www.livetradingnews.com/us-stocks-decline-for-a-2nd-day-running-eu-tariffs-loom-155131.html#.XZWDw0Yzal4",
+                         "video_url": null
+                    }
+               ],
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2269,
+                    "title": "StockTwits Web",
+                    "url": "https://stocktwits.com"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 4979,
+                         "is_following": false,
+                         "symbol": "DIA",
+                         "title": "SPDR Dow Jones Industrial Average",
+                         "watchlist_count": 10361
+                    },
+                    {
+                         "aliases": [],
+                         "id": 7271,
+                         "is_following": false,
+                         "symbol": "SPY",
+                         "title": "SPDR S&P 500",
+                         "watchlist_count": 141763
+                    },
+                    {
+                         "aliases": [],
+                         "id": 7693,
+                         "is_following": false,
+                         "symbol": "VXX",
+                         "title": "iPath S&P 500 VIX Short-Term Futures ETN",
+                         "watchlist_count": 18067
+                    },
+                    {
+                         "aliases": [
+                              "QQQQ"
+                         ],
+                         "id": 9581,
+                         "is_following": false,
+                         "symbol": "QQQ",
+                         "title": "PowerShares Nasdaq-100 QQQ",
+                         "watchlist_count": 44665
+                    },
+                    {
+                         "aliases": [
+                              "RUTX"
+                         ],
+                         "id": 9698,
+                         "is_following": false,
+                         "symbol": "RUT",
+                         "title": "Russell 2000 Index",
+                         "watchlist_count": 2631
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/655752/thumb-1514027547.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/655752/thumb-1514027547.png",
+                    "classification": [],
+                    "followers": 18206,
+                    "following": 95,
+                    "id": 655752,
+                    "ideas": 29529,
+                    "identity": "User",
+                    "join_date": "2015-12-21",
+                    "like_count": 12,
+                    "name": "Paul Ebeling",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "PaulEbeling",
+                    "watchlist_stocks_count": 0
+               }
+          },
+          {
+               "body": "$AMRN What is this friggin round table?",
+               "created_at": "2019-10-03T05:14:50Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179371778,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 2095,
+                    "title": "StockTwits For Android ",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 853,
+                         "is_following": false,
+                         "symbol": "AMRN",
+                         "title": "Amarin Corporation plc",
+                         "watchlist_count": 21362
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/205590/thumb-1422554626.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/205590/thumb-1422554626.png",
+                    "classification": [],
+                    "followers": 91,
+                    "following": 6,
+                    "id": 205590,
+                    "ideas": 10206,
+                    "identity": "User",
+                    "join_date": "2013-01-08",
+                    "like_count": 1010,
+                    "name": "Rai Den",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "VascepaBID",
+                    "watchlist_stocks_count": 14
+               }
+          },
+          {
+               "body": "$STZ \nSold my spy puts \ud83d\udc4c Now buy stz long calls atm strike when dips Friday and next week profit take and  lower fwd guidance of having to cover and promote cgc",
+               "created_at": "2019-10-03T05:13:18Z",
+               "entities": {
+                    "sentiment": null
+               },
+               "id": 179371747,
+               "liked_by_self": false,
+               "mentioned_users": [],
+               "reshared_by_self": false,
+               "source": {
+                    "id": 1149,
+                    "title": "StockTwits for iOS",
+                    "url": "http://www.stocktwits.com/mobile"
+               },
+               "symbols": [
+                    {
+                         "aliases": [],
+                         "id": 7305,
+                         "is_following": false,
+                         "symbol": "STZ",
+                         "title": "Constellation Brands Inc.",
+                         "watchlist_count": 8240
+                    }
+               ],
+               "user": {
+                    "avatar_url": "https://avatars.stocktwits.com/production/1405672/thumb-1539612634.png",
+                    "avatar_url_ssl": "https://avatars.stocktwits.com/production/1405672/thumb-1539612634.png",
+                    "classification": [],
+                    "followers": 10,
+                    "following": 13,
+                    "id": 1405672,
+                    "ideas": 1028,
+                    "identity": "User",
+                    "join_date": "2018-02-09",
+                    "like_count": 916,
+                    "name": "Jack",
+                    "official": false,
+                    "plus_tier": "",
+                    "premium_room": "",
+                    "username": "jackmania",
+                    "watchlist_stocks_count": 27
+               }
+          }
+     ]
+}
