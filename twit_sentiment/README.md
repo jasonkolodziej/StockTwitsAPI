@@ -1,4 +1,4 @@
 # StockTwit crawler
-> `conda env export > python_env.yml` {EXPORT WITH}
+> `conda env export --no-builds -f environment.yml` {EXPORT WITH}
 > 
-> `conda env create -f python_env.yml` {IMPORT WITH}
+> `conda env create -f environment.yml` {IMPORT WITH}
