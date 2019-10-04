@@ -5,6 +5,7 @@ import time
 
 
 def runner(i=None):
+    e_i = -1
     try:
         res = ST.get_trending_stocks()
         combined_results = res['messages']
@@ -23,10 +24,11 @@ def runner(i=None):
                 combined_results = res['messages']
                 js = json.dumps(combined_results, sort_keys=True, indent=5)
                 f.write(js)
+            e_i = i
     except Exception as e:
         print(e.with_traceback())
         f.close()
-        return i
+        return e_i
     f.close()
 
 

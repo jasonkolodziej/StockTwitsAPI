@@ -37,7 +37,9 @@ class Requests():
                 resp = requests.get(url, params=params, timeout=5)
             except requests.Timeout:
                 trimmed_params = {k: v for k, v in params.iteritems() if k not in ST_BASE_PARAMS.keys()}
+                print(resp.headers)
                 log.error('GET Timeout to {} w/ {}'.format(url[len(ST_BASE_URL):], trimmed_params))
+                raise Exception(-1)
             if resp is not None:
                 break
         if resp is None:
