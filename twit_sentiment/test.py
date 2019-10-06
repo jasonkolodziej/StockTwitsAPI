@@ -12,7 +12,7 @@ def runner(i=None):
         js = json.dumps(combined_results, sort_keys=True, indent=5)
         f = open("dataSample.json", "a+")
         f.write(js)
-        for i in range(100000):
+        for i in range(1500):
             # move cursor
             print('at iteration ', i+1)
             new_cur = ST.move_cursor(res['cursor'])
