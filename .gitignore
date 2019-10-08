@@ -4,4 +4,3 @@ twit_sentiment/*/__pycache__
 twit_sentiment/samples/dataSample_p1.json
 twit_sentiment/samples/dataSample_merge.json
 twit_sentiment/samples/dataSample_merge_minify.json
-twit_sentiment/samples/dataSample_merge_minify.json.zip
