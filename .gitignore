@@ -1,2 +1,4 @@
 twit_sentiment/*/__pycache__
 .DS_Store
+.vscode
+twit_sentiment/samples/dataSample_p1.json
