@@ -1,5 +1,5 @@
-from flask import Blueprint,render_template,request,jsonify
-import requests,json
+from flask import Blueprint, render_template, request, jsonify
+import requests, json
 
 # creating a Blueprint class
 search_blueprint = Blueprint('search',__name__,template_folder="templates")
@@ -37,7 +37,7 @@ def index():
                 ]
             }
             payload = json.dumps(payload)
-            url = "http://elasticsearch:9200/hacker/tutorials/_search"
+            url = "http://elasticsearch:9200/stocktwits/twits/_search"
             response = requests.request("GET", url, data=payload, headers=headers)
             response_dict_data = json.loads(str(response.text))
             return render_template('index.html', res=response_dict_data)
