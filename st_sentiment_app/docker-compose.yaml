@@ -1,0 +1,25 @@
+version: '3'
+services:
+  elasticsearch:
+    image: "elasticsearch:5"
+    networks:
+      - frontend
+    restart: always
+    volumes:
+    # store the indexed data in the Elasticsearch container to 
+    # ES_DATA folder in our project folder. The basic syntax 
+    # for mounting volumes is /host/path:/container/path
+      - ./ES_DATA:/usr/share/elasticsearch/data
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+    # Forwards the exposed port 9200 on the container 
+    # to port 9200 on the host machine
+      - "9200:9200"
+
+networks:
+# Using the network tags we can set up a network that 
+# we can use across different containers and project bases.
+  frontend:

@@ -1,0 +1,50 @@
+"body": {"type":"text"},
+"created_at": {"type":"date"},
+"entities": {
+    "properties":{
+        "chart":{
+            "properties":{
+                "large" : {"type": "text"},
+                "original": {"type": "text"},
+                "thumb":{"type":"text"},
+                "url":{"type":"text"}
+            }
+        },
+        "sentiment": {
+            "properties":{
+                "basic": {"type":"keyword"}
+            } // look for type
+        }
+    },
+    "id": {"type":"long"},
+    "liked_by_self": {"type": "boolean"},
+    "mentioned_users": {"type": "nested"},
+    "reshared_by_self": {"type": "boolean"},
+    "source": {
+        "properties":{
+            "id": {"type":"long"},
+            "title": {"type": "keyword"},
+            "url": {"type": "keyword"}
+        }
+    },
+    "symbols": {"type": "nested"},
+    "user": {
+        "properties":{
+            "avatar_url": {"type": "text"},
+            "avatar_url_ssl": {"type": "text"},
+            "classification": {"type": "nested"},
+            "followers": {"type": "long"},
+            "following": {"type": "long"},
+            "id": {"type": "long"},
+            "ideas": {"type": "text"},
+            "identity": {"type": "keyword"},
+            "join_date": {"type": "date"},
+            "like_count": {"type": "long"},
+            "name": {"type": "keyword"},
+            "official": {"type": "boolean"},
+            "plus_tier": {"type": "text"},
+            "premium_room": {"type": "text"},
+            "username": {"type": "keyword"},
+            "watchlist_stocks_count": {"type": "long"}
+        }
+    }
