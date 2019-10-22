@@ -7,6 +7,8 @@
     <link rel="icon" type="image/png" href="https://hackr.io/assets/images/code-images/code-favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="https://hackr.io/assets/images/code-images/code-favicon-16x16.png" sizes="16x16">
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="static/css/open-iconic-bootstrap.min.css">
@@ -111,7 +113,7 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="/">Hacker.io</a>
+	      <a class="navbar-brand" href="/">s.t. emotion AI</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -121,13 +123,14 @@
 	  </nav>
     <!-- END nav -->
 
-    <div class="hero-wrap js-fullheight" style="background-image: url('static/images/bg_10.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight" style="background-image: url('static/images/wall-street.jpg');" data-stellar-background-ratio="0.5">
+      <!-- Photo by Rick Tap on Unsplash -->
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-xl-10 ftco-animate mb-5 pb-5" data-scrollax=" properties: { translateY: '70%' }">
-          	<p class="mb-4 mt-5 pt-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We have <span class="number" data-number="1500">0</span> great programming courses scraped from hackr.io!</p>
-            <h1 class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Find the Best Programming Courses & Tutorials</h1>
+          	<p class="mb-4 mt-5 pt-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We have <span class="number" data-number="100000">0</span>+ twits from <a href="https://stocktwits.com">StockTwits</a> being analyzed.</p>
+            <h1 class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Invest emotionally...</h1>
 
 						<div class="ftco-search">
 							<div class="row">
@@ -143,7 +146,7 @@
 			              				<div class="form-group">
 				              				<div class="form-field">
 				              					<div class="icon"><span class="icon-search"></span></div>
-								                <input id="user_input"  name="input" type="text" class="form-control" placeholder="Search for the language you want to learn: Python, Javascript,...">
+								                <input id="user_input"  name="input" type="text" class="form-control" placeholder="Search for the stock you want to investigate: AAPL, Microsoft, NFLX, Google...">
 								              </div>
 							              </div>
 			              			</div>
@@ -155,15 +158,9 @@
                               </div>
                             </div>
                           </div>
-
-
-
-
 			              		</div>
 			              	</form>
 			              </div>
-
-
 			            </div>
 			          </div>
 			        </div>
@@ -185,11 +182,11 @@
                             <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center">
                                   <div class="mb-4 mb-md-0 mr-5">
                                     <div class="job-post-item-header d-flex align-items-center">
-                                      <h2 class="mr-3 text-black h3">{{ hit['_source']['title'] }}</h2>
+                                      <h2 class="mr-3 text-black h3">{{ hit['_source']['body'] }}</h2>
                                         <div class="badge-wrap">
-                                          {% for label in  hit['_source']['labels']  %}
-                                            <span class="bg-secondary text-white badge py-2 px-3">{{label}}</span>
-                                          {% endfor %}
+                                          <!-- {% for ts in  hit['_source']['label']  %} -->
+                                            <span class="bg-secondary text-white badge py-2 px-3">{{hit['_source']['body']}}</span>
+                                          <!-- {% endfor %} -->
                                         </div>
                                     </div>
                                     <div class="job-post-item-body d-block d-md-flex">
@@ -198,7 +195,7 @@
                                     </div>
                                   </div>
                                   <div class="ml-auto d-flex">
-                                    <a href="{{ hit['_source']['url'] }}" target="_blank" class="btn btn-primary py-2 mr-1">Visit Tutorial</a>
+                                    <a href="{{ hit['_source']['url'] }}" target="_blank" class="btn btn-primary py-2 mr-1">See Analysis</a>
                                   </div>
                             </div>
                         </div><!-- end -->
@@ -220,10 +217,16 @@
 
         <div class="row">
           <div class="col-md-12 text-center">
-
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://github.com/dineshsonachalam" target="_blank">Dinesh Sonachalam</a>
-  </p>
+              Copyright &copy; 
+              <script> 
+                document.write(new Date().getFullYear());
+                </script>
+                With 
+                <i class="fas fa-brain" style="color: #fc4ecb;" aria-hidden="true"> </i> 
+              </em>power</em>.
+                by <a href="https://jasonkolodziej.com" target="_blank">K.P. Investment Technologies</a>
+            </p>
           </div>
         </div>
       </div>
@@ -296,23 +299,13 @@
 
             });
       });
-
       // drag to tutorial_list division
-
       if({{ res['hits']['total'] }}>0){
             $('html, body').animate({
                 scrollTop: $("#tutorial_section").offset().top
             }, 2000);
             console.log("Called here")
       }
-
-
-
-
-
  </script>
-
-
   </body>
-
 </html>

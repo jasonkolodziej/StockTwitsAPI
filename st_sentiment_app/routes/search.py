@@ -4,7 +4,7 @@ import requests, json
 # creating a Blueprint class
 search_blueprint = Blueprint('search',__name__,template_folder="templates")
 search_term = ""
-
+DEVEL_PROD = "localhost" # "elasticsearch"
 
 headers = {
     'Content-Type': "application/json",
@@ -16,7 +16,7 @@ def index():
     if request.method=='GET':
         res ={
 	            'hits': {'total': 0, 'hits': []}
-             }
+        }
         return render_template("index.html",res=res)
     elif request.method =='POST':
         if request.method == 'POST':
@@ -28,8 +28,28 @@ def index():
                     "query_string": {
                         "analyze_wildcard": True,
                         "query": str(search_term),
-                        "fields": ["topic", "title", "url", "labels"]
+                        # "fields": ["topic", "title", "url", "labels"]
+                        "fields": ["body"]
                     }
+                    # ,
+                    # "nested": {
+                    #     "path": "symbols",
+                    #     "query": {
+                    #         "bool": {
+                    #         "must": [
+                    #                 { "match": { "symbols.symbol": str(search_term) }},
+                    #                 { "match": { "symbols.title":  str(search_term) }} 
+                    #             ]
+                    #         }
+                    #     },
+                    #     "inner_hits": { 
+                    #         "highlight": {
+                    #             "fields": {
+                    #                 "symbols.symbol": {}
+                    #             }
+                    #         }
+                    #     }
+                    # }
                 },
                 "size": 50,
                 "sort": [
@@ -37,9 +57,10 @@ def index():
                 ]
             }
             payload = json.dumps(payload)
-            url = "http://elasticsearch:9200/stocktwits/twits/_search"
+            url = "http://"+DEVEL_PROD+":9200/stocktwits/twits/_search"
             response = requests.request("GET", url, data=payload, headers=headers)
             response_dict_data = json.loads(str(response.text))
+            print(response_dict_data)
             return render_template('index.html', res=response_dict_data)
 
 
@@ -53,14 +74,16 @@ def autocomplete():
           "autocomplete" : {
             "text" : str(search_term),
             "completion" : {
-              "field" : "title_suggest"
+              "field" : "title_suggest",
+              "field": "symbol_suggest"
             }
           }
         }
         payload = json.dumps(payload)
-        url="http://elasticsearch:9200/autocomplete/_suggest"
+        url="http://"+ DEVEL_PROD +":9200/autocomplete/_suggest"
         response = requests.request("GET", url, data=payload, headers=headers)
         response_dict_data = json.loads(str(response.text))
+        # print(response_dict_data)
         return json.dumps(response_dict_data)
 
 
