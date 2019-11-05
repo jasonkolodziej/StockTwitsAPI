@@ -6,3 +6,6 @@ twit_sentiment/samples/dataSample_merge.json
 twit_sentiment/samples/dataSample_merge_minify.json
 st_sentiment_app/ES_DATA
 st_sentiment_app/*/__pycache__
+**/__pycache__
+st_ml/training_data
+st_ml/data_gathered

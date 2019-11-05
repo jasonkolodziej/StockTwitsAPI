@@ -68,7 +68,7 @@ def move_cursor(cursor=None):
         return None
     else:
         # update cursor to start at `since` and get maximum
-        return dict(since=cursor['since'])
+        return dict(since=cursor['max'])
 
 def watchlists():
     """ Gets user watch lists
