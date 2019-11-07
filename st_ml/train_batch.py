@@ -124,13 +124,13 @@ def evaluate(model, data, loss_function, name):
 
 
 def load_sst(text_field, label_field, batch_size):
-    train, dev, test = data.TabularDataset.splits(path='./data/SST2/', train='train.tsv',
-                                                  validation='dev.tsv', test='test.tsv', format='tsv',
-                                                  fields=[('text', text_field), ('label', label_field)])
-    # train, dev, test = data.TabularDataset.splits(path='./training_data/', train='train.csv',
-    #                                               validation='valid.csv', test='test.csv', format='csv',
-    #                                               skip_header=True,
+    # train, dev, test = data.TabularDataset.splits(path='./data/SST2/', train='train.tsv',
+    #                                               validation='dev.tsv', test='test.tsv', format='tsv',
     #                                               fields=[('text', text_field), ('label', label_field)])
+    train, dev, test = data.TabularDataset.splits(path='./training_data/', train='train.csv',
+                                                  validation='valid.csv', test='test.csv', format='csv',
+                                                  skip_header=True,
+                                                  fields=[('text', text_field), ('label', label_field)])
     text_field.build_vocab(train, dev, test)
     label_field.build_vocab(train, dev, test)
     train_iter, dev_iter, test_iter = data.BucketIterator.splits((train, dev, test),
@@ -154,6 +154,7 @@ args = args.parse_args()
 
 EPOCHS = 20
 USE_GPU = torch.cuda.is_available()
+print("Using CUDA GPUs ==> ",USE_GPU)
 EMBEDDING_DIM = 300
 HIDDEN_DIM = 150
 
