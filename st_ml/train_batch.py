@@ -127,6 +127,10 @@ def load_sst(text_field, label_field, batch_size):
     train, dev, test = data.TabularDataset.splits(path='./data/SST2/', train='train.tsv',
                                                   validation='dev.tsv', test='test.tsv', format='tsv',
                                                   fields=[('text', text_field), ('label', label_field)])
+    # train, dev, test = data.TabularDataset.splits(path='./training_data/', train='train.csv',
+    #                                               validation='valid.csv', test='test.csv', format='csv',
+    #                                               skip_header=True,
+    #                                               fields=[('text', text_field), ('label', label_field)])
     text_field.build_vocab(train, dev, test)
     label_field.build_vocab(train, dev, test)
     train_iter, dev_iter, test_iter = data.BucketIterator.splits((train, dev, test),
