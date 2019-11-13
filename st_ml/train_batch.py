@@ -34,7 +34,7 @@ def load_bin_vec(fname, vocab):
                 if ch != '\n':
                     word.append(ch)
             if word in vocab:
-               word_vecs[word] = np.frombuffer(f.read(binary_len), dtype='float32')#np.fromstring(f.read(binary_len), dtype='float32')
+               word_vecs[word] = np.frombuffer(f.read(binary_len), dtype='float32') # np.fromstring(f.read(binary_len), dtype='float32')
             else:
                 f.read(binary_len)
     return word_vecs
@@ -49,25 +49,36 @@ def get_accuracy(truth, pred):
     return right / len(truth)
 
 
-def train_epoch_progress(model, train_iter, loss_function, optimizer, text_field, label_field, epoch):
+def train_epoch_progress(model, train_iter, loss_function, optimizer, text_field, label_field, epoch, device):
     model.train()
     avg_loss = 0.0
     truth_res = []
     pred_res = []
     count = 0
     for batch in tqdm(train_iter, desc='Train epoch '+str(epoch+1)):
-        sent, label = batch.text, batch.label
+        # Get data
+        # if device:
+        sent, label = batch.text.to(device), batch.label.to(device)
+        # else:
+            # sent, label = batch.text, batch.label
+        optimizer.zero_grad() # zero gradient for forward pass
+        # Apply forward pass
         label.data.sub_(1)
         truth_res += list(label.data)
         model.batch_size = len(label.data)
         model.hidden = model.init_hidden()
         pred = model(sent)
-        pred_label = pred.data.max(1)[1].numpy()
+        # if device:
+        pred_label = pred.data.max(1)[1].numpy() if device == "cpu" else pred.data.max(1)[1].detach().cpu().numpy()
+        # else:
+        #     pred_label = pred.data.max(1)[1].numpy()
         pred_res += [x for x in pred_label]
-        model.zero_grad()
+        # model.zero_grad()
         loss = loss_function(pred, label)
         avg_loss += loss.data # [0]
         count += 1
+
+        # backward pass and optimizer step change
         loss.backward()
         optimizer.step()
     avg_loss /= len(train_iter)
@@ -75,45 +86,51 @@ def train_epoch_progress(model, train_iter, loss_function, optimizer, text_field
     return avg_loss, acc
 
 
-def train_epoch(model, train_iter, loss_function, optimizer):
-    model.train()
-    avg_loss = 0.0
-    truth_res = []
-    pred_res = []
-    count = 0
-    for batch in train_iter:
-        sent, label = batch.text, batch.label
-        label.data.sub_(1)
-        truth_res += list(label.data)
-        model.batch_size = len(label.data)
-        model.hidden = model.init_hidden()
-        pred = model(sent)
-        pred_label = pred.data.max(1)[1].numpy()
-        pred_res += [x for x in pred_label]
-        model.zero_grad()
-        loss = loss_function(pred, label)
-        avg_loss += loss.data # [0]
-        count += 1
-        loss.backward()
-        optimizer.step()
-    avg_loss /= len(train_iter)
-    acc = get_accuracy(truth_res, pred_res)
-    return avg_loss, acc
+# def train_epoch(model, train_iter, loss_function, optimizer):
+#     model.train()
+#     avg_loss = 0.0
+#     truth_res = []
+#     pred_res = []
+#     count = 0
+#     for batch in train_iter:
+#         sent, label = batch.text, batch.label
+#         label.data.sub_(1)
+#         truth_res += list(label.data)
+#         model.batch_size = len(label.data)
+#         model.hidden = model.init_hidden()
+#         pred = model(sent)
+#         pred_label = pred.data.max(1)[1].numpy()
+#         pred_res += [x for x in pred_label]
+#         model.zero_grad()
+#         loss = loss_function(pred, label)
+#         avg_loss += loss.data # [0]
+#         count += 1
+#         loss.backward()
+#         optimizer.step()
+#     avg_loss /= len(train_iter)
+#     acc = get_accuracy(truth_res, pred_res)
+#     return avg_loss, acc
 
 
-def evaluate(model, data, loss_function, name):
+def evaluate(model, data, loss_function, name, device):
     model.eval()
     avg_loss = 0.0
     truth_res = []
     pred_res = []
     for batch in data:
-        sent, label = batch.text, batch.label
+        # if device:
+        sent, label = batch.text.to(device), batch.label.to(device)
+        # else:
+        #     sent, label = batch.text, batch.label
         label.data.sub_(1)
         truth_res += list(label.data)
         model.batch_size = len(label.data)
         model.hidden = model.init_hidden()
         pred = model(sent)
-        pred_label = pred.data.max(1)[1].numpy()
+        # if device:
+        pred_label = pred.data.max(1)[1].numpy() if device == "cpu" else pred.data.max(1)[1].detach().cpu().numpy()
+        # else:
+        #     pred_label = pred.data.max(1)[1].numpy()
         pred_res += [x for x in pred_label]
         loss = loss_function(pred, label)
         avg_loss += loss.data # [0]
@@ -123,7 +140,7 @@ def evaluate(model, data, loss_function, name):
     return acc
 
 
-def load_sst(text_field, label_field, batch_size):
+def load_sst(text_field, label_field, batch_size, device):
     # train, dev, test = data.TabularDataset.splits(path='./data/SST2/', train='train.tsv',
     #                                               validation='dev.tsv', test='test.tsv', format='tsv',
     #                                               fields=[('text', text_field), ('label', label_field)])
@@ -134,7 +151,7 @@ def load_sst(text_field, label_field, batch_size):
     text_field.build_vocab(train, dev, test)
     label_field.build_vocab(train, dev, test)
     train_iter, dev_iter, test_iter = data.BucketIterator.splits((train, dev, test),
-                batch_sizes=(batch_size, len(dev), len(test)), sort_key=lambda x: len(x.text), repeat=False, device=-1)
+                batch_sizes=(batch_size, batch_size, batch_size), sort_key=lambda x: len(x.text), repeat=False, device=device)
     ## for GPU run
 #     train_iter, dev_iter, test_iter = data.BucketIterator.splits((train, dev, test),
 #                 batch_sizes=(batch_size, len(dev), len(test)), sort_key=lambda x: len(x.text), repeat=False, device=None)
@@ -154,18 +171,21 @@ args = args.parse_args()
 
 EPOCHS = 20
 USE_GPU = torch.cuda.is_available()
-print("Using CUDA GPUs ==> ",USE_GPU)
+DEVICE = "cuda:0" if USE_GPU else "cpu" # None
+print("Using CUDA GPUs ==> ",USE_GPU, DEVICE)
 EMBEDDING_DIM = 300
 HIDDEN_DIM = 150
 
-BATCH_SIZE = 5
+BATCH_SIZE = 50
 timestamp = str(int(time.time()))
 best_dev_acc = 0.0
 
-
+print("Loading data for training, validating, and testing purposes...")
 text_field = data.Field(lower=True)
 label_field = data.Field(sequential=False)
-train_iter, dev_iter, test_iter = load_sst(text_field, label_field, BATCH_SIZE)
+train_iter, dev_iter, test_iter = load_sst(text_field, label_field, BATCH_SIZE, DEVICE)
+print("text_field size : ", len(text_field.vocab), "\tlabel_field size : ", len(label_field.vocab)-1)
+print()
 
 
 if not args.model or args.model == 'lstm':
@@ -190,6 +210,7 @@ print('Load word embeddings...')
 word_to_idx = text_field.vocab.stoi
 pretrained_embeddings = np.random.uniform(-0.25, 0.25, (len(text_field.vocab), 300))
 pretrained_embeddings[0] = 0
+# load Google News vector weights
 word2vec = load_bin_vec('./data/GoogleNews-vectors-negative300.bin', word_to_idx)
 for word, vector in word2vec.items():
     pretrained_embeddings[word_to_idx[word]-1] = vector
@@ -210,9 +231,9 @@ print("Writing to {}\n".format(out_dir))
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
 for epoch in range(EPOCHS):
-    avg_loss, acc = train_epoch_progress(model, train_iter, loss_function, optimizer, text_field, label_field, epoch)
+    avg_loss, acc = train_epoch_progress(model, train_iter, loss_function, optimizer, text_field, label_field, epoch, DEVICE)
     tqdm.write('Train: loss %.2f acc %.1f' % (avg_loss, acc*100))
-    dev_acc = evaluate(model, dev_iter, loss_function, 'Dev')
+    dev_acc = evaluate(model, dev_iter, loss_function, 'Dev', DEVICE)
     if dev_acc > best_dev_acc:
         if best_dev_acc > 0:
             os.system('rm '+ out_dir + '/best_model' + '.pth')
@@ -220,6 +241,6 @@ for epoch in range(EPOCHS):
         best_model = model
         torch.save(best_model.state_dict(), out_dir + '/best_model' + '.pth')
         # evaluate on test with the best dev performance model
-        test_acc = evaluate(best_model, test_iter, loss_function, 'Test')
-test_acc = evaluate(best_model, test_iter, loss_function, 'Final Test')
+        test_acc = evaluate(best_model, test_iter, loss_function, 'Test', DEVICE)
+test_acc = evaluate(best_model, test_iter, loss_function, 'Final Test', DEVICE)
 
