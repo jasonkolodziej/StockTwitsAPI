@@ -13,6 +13,9 @@ import argparse
 torch.set_num_threads(8)
 torch.manual_seed(1)
 random.seed(1)
+progression = lambda itr, epoch : tqdm(itr, desc='Train epoch '+str(epoch+1), unit='iter.', dynamic_ncols=True)
+load_file_prog = lambda rnge, desc, units : tqdm(range(rnge), desc=desc, unit=units, dynamic_ncols=True)
+eval_prog = lambda itr, dsc : tqdm(itr, desc=dsc, unit='iter.', dynamic_ncols=True)
 
 
 def load_bin_vec(fname, vocab):
@@ -24,7 +27,7 @@ def load_bin_vec(fname, vocab):
         header = f.readline()
         vocab_size, layer1_size = map(int, header.split())
         binary_len = np.dtype('float32').itemsize * layer1_size
-        for line in range(vocab_size):
+        for line in load_file_prog(vocab_size, 'Loading Neg. Vectors', 'lines'):
             word = []
             while True:
                 ch = f.read(1).decode('latin-1')
@@ -55,7 +58,7 @@ def train_epoch_progress(model, train_iter, loss_function, optimizer, text_field
     truth_res = []
     pred_res = []
     count = 0
-    for batch in tqdm(train_iter, desc='Train epoch '+str(epoch+1)):
+    for batch in progression(train_iter, epoch):
         # Get data
         # if device:
         sent, label = batch.text.to(device), batch.label.to(device)
@@ -117,7 +120,7 @@ def evaluate(model, data, loss_function, name, device):
     avg_loss = 0.0
     truth_res = []
     pred_res = []
-    for batch in data:
+    for batch in eval_prog(data, 'Evaluating'):
         # if device:
         sent, label = batch.text.to(device), batch.label.to(device)
         # else:
@@ -148,8 +151,11 @@ def load_sst(text_field, label_field, batch_size, device):
                                                   validation='valid.csv', test='test.csv', format='csv',
                                                   skip_header=True,
                                                   fields=[('text', text_field), ('label', label_field)])
+    # Construct the Vocab object for nesting field and combine it with this field’s vocab.
     text_field.build_vocab(train, dev, test)
     label_field.build_vocab(train, dev, test)
+    # Defines an iterator that batches examples of similar lengths together.
+    # && Create Iterator objects for multiple splits of a dataset.
     train_iter, dev_iter, test_iter = data.BucketIterator.splits((train, dev, test),
                 batch_sizes=(batch_size, batch_size, batch_size), sort_key=lambda x: len(x.text), repeat=False, device=device)
     ## for GPU run
