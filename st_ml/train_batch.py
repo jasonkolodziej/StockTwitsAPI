@@ -228,7 +228,7 @@ model.embeddings.weight.data.copy_(torch.from_numpy(pretrained_embeddings))
 
 
 best_model = model
-optimizer = optim.Adam(model.parameters(), lr=1e-3)
+optimizer = optim.SGD(model.parameters(), lr=1e-5)
 loss_function = nn.NLLLoss()
 
 print('Training...')
