@@ -10,3 +10,5 @@ st_sentiment_app/*/__pycache__
 st_ml/training_data
 st_ml/data_gathered
 st_ml/data/GoogleNews-vectors-negative300.bin
+st_ml/data/cleaned_shuf_ts.csv
+st_ml/data/full_shuffled_ts.csv
