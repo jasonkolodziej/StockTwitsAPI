@@ -1,6 +1,6 @@
 import zipfile
 import os, sys
-zip_folder = 'training_data.zip'
+zip_folder = 'data.zip'
 def zipdir(path, ziph):
     # ziph is zipfile handle
     for root, dirs, files in os.walk(path):
@@ -21,7 +21,7 @@ if __name__ == '__main__':
         exit(-1)
     elif args[0] == 'zip':
         zipf = zipfile.ZipFile(zip_folder, 'w', zipfile.ZIP_DEFLATED)
-        zipdir('training_data', zipf)
+        zipdir('data', zipf)
         zipf.close()
     elif args[0] == 'unzip':
         unzipf = zipfile.ZipFile(zip_folder, 'r')
