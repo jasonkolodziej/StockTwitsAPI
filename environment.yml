@@ -1,13 +1,14 @@
 name: twit
 channels:
-  - pytorch
   - jmcmurray
+  - pytorch
   - anaconda
   - conda-forge
   - defaults
 dependencies:
   - asn1crypto=1.0.1
   - astroid=2.3.1
+  - attrs=19.3.0
   - blas=1.0
   - boto=2.49.0
   - boto3=1.9.234
@@ -19,19 +20,27 @@ dependencies:
   - chardet=3.0.4
   - click=7.0
   - cryptography=2.7
+  - cycler=0.10.0
+  - cymem=2.0.2
+  - cython-blis=0.2.4
   - docutils=0.15.2
   - flask=1.1.1
   - freetype=2.9.1
   - gensim=3.8.0
   - gunicorn=19.9.0
   - idna=2.8
+  - ignite=0.2.1
+  - importlib_metadata=0.23
   - intel-openmp=2019.4
   - isort=4.3.21
   - itsdangerous=1.1.0
   - jinja2=2.10.3
   - jmespath=0.9.4
+  - joblib=0.14.0
   - jpeg=9b
   - json=0.1.1
+  - jsonschema=3.2.0
+  - kiwisolver=1.1.0
   - lazy-object-proxy=1.4.2
   - libcxx=4.0.1
   - libcxxabi=4.0.1
@@ -40,49 +49,70 @@ dependencies:
   - libgfortran=3.0.1
   - libpng=1.6.37
   - libtiff=4.0.10
+  - llvm-openmp=4.0.1
   - markupsafe=1.1.1
+  - matplotlib=3.1.1
   - mccabe=0.6.1
   - mkl=2019.4
   - mkl-service=2.3.0
   - mkl_fft=1.0.14
   - mkl_random=1.1.0
+  - more-itertools=7.2.0
+  - murmurhash=1.0.0
   - ncurses=6.1
   - ninja=1.9.0
   - nltk=3.4.5
   - numpy=1.17.2
   - numpy-base=1.17.2
   - olefile=0.46
-  - openssl=1.1.1
+  - openssl=1.1.1d
+  - pandas=0.25.3
+  - patsy=0.5.1
   - pillow=6.2.0
   - pip=19.2.3
+  - plac=0.9.6
+  - preshed=2.0.1
   - pycparser=2.19
   - pylint=2.4.2
   - pyopenssl=19.0.0
+  - pyparsing=2.4.5
+  - pyrsistent=0.15.5
   - pysocks=1.7.1
   - python=3.7.4
   - python-dateutil=2.8.0
   - python-dotenv=0.10.3
   - pytorch=1.3.0
+  - pytz=2019.3
   - qutil=3.2.1
   - readline=7.0
   - requests=2.22.0
   - s3transfer=0.2.1
+  - scikit-learn=0.21.3
   - scipy=1.3.1
+  - seaborn=0.9.0
   - setuptools=41.2.0
   - six=1.12.0
   - smart_open=1.8.4
+  - spacy=2.1.8
   - sqlite=3.29.0
+  - srsly=0.1.0
+  - statsmodels=0.10.1
+  - thinc=7.0.8
   - tk=8.6.8
   - torchtext=0.4.0
   - torchvision=0.4.1
+  - tornado=6.0.3
   - tqdm=4.36.1
   - urllib3=1.25.6
+  - wasabi=0.4.0
   - werkzeug=0.16.0
   - wheel=0.33.6
   - wrapt=1.11.2
   - xz=5.2.4
+  - zipp=0.6.0
   - zlib=1.2.11
   - zstd=1.3.7
   - pip:
+    - en-core-web-sm==2.1.0
     - pytwits==0.1
 prefix: /usr/local/anaconda3/envs/twit
