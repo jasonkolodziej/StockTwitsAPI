@@ -11,8 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Build the Docker image
-      run: docker build . --file ./st_sentiment_app/Dockerfile --tag st_app:$(date +%s)
-      with:
-        name: jasonkolodziej/twit_st
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+      run: docker build . --file ./st_sentiment_app/Dockerfile --tag twit_st:$(date +%s)
