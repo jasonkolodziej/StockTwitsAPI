@@ -3,8 +3,8 @@ import requests, json
 
 STOCK_TWITS = 'https://stocktwits.com/symbol/'
 search_term = ""
-DEVEL_PROD = "localhost" # "elasticsearch"
-ML_DEVEL_PROD = "localhost" # "mlapi"
+DEVEL_PROD =  "elasticsearch"
+ML_DEVEL_PROD = "mlapi"
 
 headers = {
     'Content-Type': "application/json",
