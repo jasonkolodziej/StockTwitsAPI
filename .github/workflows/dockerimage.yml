@@ -16,3 +16,4 @@ jobs:
         name: jasonkolodziej/twit_st
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        dockerfile: ./st_sentiment_app/Dockerfile
