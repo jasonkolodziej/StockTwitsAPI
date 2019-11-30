@@ -15,8 +15,8 @@ RUN conda env create -f environment.yml
 # RUN pip install -r requirements.txt
 
 # Pull the environment name out of the environment.yml
-RUN echo "source activate $(head -1 /tmp/environment.yml | cut -d' ' -f2)" > ~/.bashrc
-ENV PATH /opt/conda/envs/$(head -1 /tmp/environment.yml | cut -d' ' -f2)/bin:$PATH
+RUN echo "source activate $(head -1 ./environment.yml | cut -d' ' -f2)" > ~/.bashrc
+ENV PATH /opt/conda/envs/$(head -1 ./environment.yml | cut -d' ' -f2)/bin:$PATH
 
 # Copying the entire application to the docker container in the app directory.
 COPY ./st_sentiment_app /app

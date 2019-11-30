@@ -10,5 +10,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - name: Build the Docker image
-      run: docker build . --file ./st_sentiment_app/Dockerfile --tag twit_st:$(date +%s)
+    - name: Build, Tag, Publish Docker
+      uses: HurricanKai/Publish-Docker-Github-Action@1.12.1
+      with:
+        name: jasonkolodziej/twit_st
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
