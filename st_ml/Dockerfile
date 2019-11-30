@@ -29,4 +29,4 @@ ENV PATH /mlapi:$PATH
 # start gunicorn
 CMD ["uvicorn","ml_api:app","--host","0.0.0.0","--port", "8675"]
 
-EXPOSE 8005
+EXPOSE 8675
