@@ -43,10 +43,10 @@ dependencies:
   - libcxxabi
   - libedit=3.1.20181209
   - libffi=3.2.1
-  - libgfortran=3.0.1
+  - libgfortran
   - libpng=1.6.37
   - libtiff=4.1.0
-  - llvm-openmp=4.0.1
+  - llvm-openmp
   - markupsafe=1.1.1
   - matplotlib=3.1.1
   - mccabe=0.6.1
