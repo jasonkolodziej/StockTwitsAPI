@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
-      run: docker build ./st_sentiment_app --file Dockerfile --tag st_app:$(date +%s)
+      run: docker build . --file ./st_sentiment_app/Dockerfile --tag st_app:$(date +%s)
