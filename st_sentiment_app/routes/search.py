@@ -54,6 +54,21 @@ def constuct_mlapi_msg(disected_dic):
         all_msgs.append(dict(SentimentText=ba, Sentiment=[0 for i in range(len(ba))]))
     return all_msgs
 
+def resolve_calculations(sentiment):
+    """ Calculate the percentages
+        Handle the amount of uncertainty
+    """
+    mis = 0.0
+    total = 0.0
+    pos = 0.0
+    neg = 0.0
+    for v in sentiment:
+        mis+= 1.0 if v is None else 0
+        pos+= 1.0 if v is 1 else 0
+        neg+= 1.0 if v is 0 else 0
+        total += 1
+    return [((pos/total)*100.0), ((neg/total)*100.0), ((mis/total)*100.0)]
+
 
 def ask_ml(msgs):
     """ makes a call out to service
@@ -67,15 +82,13 @@ def ask_ml(msgs):
         payload = json.dumps(msg)
         response = requests.request("POST", url, data=payload, headers=headers)
         response_dict_data = json.loads(str(response.text))
-        pos = 0
-        neg = 0
+        pb = [0,0,0]
         try:
-            pos = sum(response_dict_data["Sentiment"])/float(len(response_dict_data["Sentiment"])) * 100.0
-            neg = 100.0 - pos
+                pb = resolve_calculations(response_dict_data["Sentiment"])
         except TypeError:
             pass
         finally:
-            response_dict_data['Sentiment'] = [pos, neg]
+            response_dict_data['Sentiment'] = pb
             return response_dict_data
 
 
@@ -134,7 +147,7 @@ def index():
             url = "http://"+DEVEL_PROD+":9200/stocktwits/twits/_search"
             response = requests.request("GET", url, data=payload, headers=headers)
             response_dict_data = json.loads(str(response.text))
-            # print(response_dict_data)
+            print(response_dict_data)
             if response_dict_data['hits']['total'] is 0:
                 return render_template('err.html',err={'code':404,'msg':'Not Found.'})
             dh = disect_hits(search_term, response_dict_data['hits'])
@@ -147,7 +160,7 @@ def index():
             response_from_mlapi['link'] = STOCK_TWITS+fs
             response_from_mlapi['done'] = 1
             # print('*'*100)
-            print("reply is ~>", response_from_mlapi)
+            # print("reply is ~>", response_from_mlapi)
             # print('*'*100)
             return render_template('index.html', res=response_from_mlapi)
 

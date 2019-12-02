@@ -198,6 +198,7 @@
                   <div id="st_prog" class="progress" style="height: 40px; visibility: hidden;">
                       <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" id="pos_sent" role="progressbar" style="width: 20%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{res['Sentiment'][0]}}% positive</div>
                       <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" id="neg_sent" role="progressbar" style="width: 20%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{res['Sentiment'][1]}}% negative</div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" id="neu_sent" role="progressbar" style="width: 20%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{res['Sentiment'][2]}}% neutral</div>
                     </div>
               </div>
               </div>
@@ -300,6 +301,7 @@
             console.log("setting values");
             $("#pos_sent").attr('aria-valuenow', '{{res['Sentiment'][0]}}').css('width', '{{res['Sentiment'][0]}}%');
             $("#neg_sent").attr('aria-valuenow', {{res['Sentiment'][1]}}).css('width', '{{res['Sentiment'][1]}}%');
+            $("#neu_sent").attr('aria-valuenow', {{res['Sentiment'][2]}}).css('width', '{{res['Sentiment'][2]}}%');
             $("#link_to_st").attr('href', '{{res['link']}}');
             $("#st_title").attr('href', '{{res['link']}}');
             $('#tutorial_lists').css('visibility','visible');
